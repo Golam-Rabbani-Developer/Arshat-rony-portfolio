@@ -1,0 +1,12 @@
+.skill {
+    color: var(--font-color);
+    transition: all 0.5s;
+    padding: 0 12px;
+    border-radius: 9px;
+    font-family: 'Inter', sans-serif;
+}
+
+.skill:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}

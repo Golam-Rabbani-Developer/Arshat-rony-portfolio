@@ -1,0 +1,12 @@
+.contact-text {
+    font-family: 'Inter', sans-serif;
+}
+
+.contact {
+    margin-top: 70px;
+}
+
+.gmail {
+    text-decoration: underline;
+    color: var(--primary-color);
+}

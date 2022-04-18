@@ -1,0 +1,14 @@
+.footer {
+    background-color: #1c1e24;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: var(--font-color);
+    transition: all 0.5s;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-text:hover {
+    color: white;
+}

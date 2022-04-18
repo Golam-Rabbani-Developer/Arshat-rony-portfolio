@@ -1,0 +1,37 @@
+.about-container {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 1.1rem;
+    margin-top: 70px;
+}
+
+.about-heading,
+.about-subheading {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-phone {
+    color: var(--primary-color);
+}
+
+#about-title {
+    border-bottom: none;
+}
+
+.about-heading {
+    color: var(--heading-color);
+    font-weight: bold;
+}
+
+.project-bar {
+    border-bottom: 2px solid var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.about-subheading {
+    color: var(--dark-color);
+    font-family: var(--font-family);
+}

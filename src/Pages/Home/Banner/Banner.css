@@ -1,0 +1,32 @@
+.img {
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 10px 10px 0 10px;
+}
+
+.banner-text {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons span {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.632);
+    margin-right: 15px;
+    border-radius: 100%;
+    transition: all 0.8s;
+}
+
+.banner-para {
+    font-size: 1.2rem;
+    color: var(--font-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.icons span:hover {
+    background-color: var(--primary-color);
+}
+
+.icons>span>svg {
+    margin-bottom: 5px;
+}

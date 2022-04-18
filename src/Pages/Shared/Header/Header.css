@@ -1,0 +1,7 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#global-btn {
+    background-color: var(--primary-color);
+}
