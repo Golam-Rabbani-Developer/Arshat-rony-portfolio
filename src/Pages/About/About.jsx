@@ -4,6 +4,7 @@ import { MdAttachEmail } from "react-icons/md"
 import { BsFillTelephoneOutboundFill } from "react-icons/bs"
 import { FcAddressBook } from "react-icons/fc"
 import './About.css'
+import Skills from '../Home/Skills/Skills';
 const About = () => {
     return (
         <div className='home-container mx-auto p-4'>
@@ -13,6 +14,9 @@ const About = () => {
                 <p>Hey, Arshat Rony here. Addressing to my spot on the web for projects I've created,tutorials I've written and else I want to show the world.My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
                 <br />
                 <p>Check out my <span className='project-bar'>Projects</span> and <span className='project-bar'>Articles</span></p>
+            </div>
+            <div className="about-container">
+                <Skills></Skills>
             </div>
             <div className='about-container '>
                 <h3 className='about-heading'>My Interests</h3>

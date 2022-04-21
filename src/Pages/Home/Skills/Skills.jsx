@@ -6,7 +6,7 @@ import './Skills.css'
 const Skills = () => {
     const [data, setData] = useData('skilldata.json')
     return (
-        <div className='skills  px-4'>
+        <div className='skills'>
             <h2 className='skills-heading'>Highlights of My Skills</h2>
             <hr />
             <div>
