@@ -17,6 +17,9 @@ body {
   --hover-color: rgba(0, 0, 0, 0.2);
   --dark-color: rgba(235, 240, 255, 0.5);
   --btn-color: #1C2648;
+  --light-border-color: hsla(0, 0%, 100%, 0.1);
+  --background-color: #282c34;
+  --btn-font: #eee;
 
   --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

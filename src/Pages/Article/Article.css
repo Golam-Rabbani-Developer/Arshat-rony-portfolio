@@ -1,0 +1,29 @@
+.artilcle-btn {
+    background-color: #20232A;
+    /* background-color: var(--btn-color); */
+
+    border: 1px solid var(--light-border-color);
+    border-radius: 8px;
+    /* color: var(--bright-font-color); */
+    color: var(--btn-font);
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0.4rem 0.6rem;
+    vertical-align: middle;
+}
+
+.artilcle-btn:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.article {
+    background: var(--hover-color);
+    border: 1px solid #111;
+    border-radius: 8px;
+    color: var(--btn-font);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}

@@ -3,5 +3,34 @@
 }
 
 #global-btn {
+
+    transition: all 0.8s;
+    background-color: var(--background-color);
+    color: white;
+    font-weight: bold;
+    border-left: 4px solid var(--primary-color);
+    border-top: 4px solid var(--primary-color);
+}
+
+#global-btn:hover {
     background-color: var(--primary-color);
+    font-weight: bold;
+    border-left: 4px solid var(--font-color);
+    border-top: 4px solid var(--font-color);
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    background-color: none;
+    border: unset;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: var(--font-color);
+    border-radius: 2px;
 }

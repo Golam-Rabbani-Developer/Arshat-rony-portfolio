@@ -5,6 +5,7 @@ import { BsFillTelephoneOutboundFill } from "react-icons/bs"
 import { FcAddressBook } from "react-icons/fc"
 import './About.css'
 import Skills from '../Home/Skills/Skills';
+import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className='home-container mx-auto p-4'>
@@ -13,7 +14,8 @@ const About = () => {
             <div className="about-container">
                 <p>Hey, Arshat Rony here. Addressing to my spot on the web for projects I've created,tutorials I've written and else I want to show the world.My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
                 <br />
-                <p>Check out my <span className='project-bar'>Projects</span> and <span className='project-bar'>Articles</span></p>
+                <p>Check out my <Link className='text-decoration-none text-white' to='/project'>
+                    <span className='project-bar'>Projects</span></Link> and <span className='project-bar'>Articles</span></p>
             </div>
             <div className="about-container">
                 <Skills></Skills>
@@ -32,11 +34,13 @@ const About = () => {
                 <h3 className='about-heading'>Favourite Tools</h3>
                 <hr />
                 <div className=''>
+                    <img style={{ height: "60px" }} src="https://i.ibb.co/x8ZFysr/react-removebg-preview.png" alt="" />
+                    <img style={{ height: "60px" }} src="https://i.ibb.co/h7gkbkc/image-removebg-preview-13.png" alt="" />
                     <img style={{ height: "60px" }} src="https://i.ibb.co/bbrHMLq/firebase-removebg-preview.png" alt="" />
                     <img style={{ height: "60px" }} src="https://i.ibb.co/KsBn35m/image-removebg-preview-14.png" alt="" />
-                    <img style={{ height: "60px" }} src="https://i.ibb.co/x8ZFysr/react-removebg-preview.png" alt="" />
+
                     <img style={{ height: "60px" }} src="https://i.ibb.co/xs231nS/tailwind-removebg-preview.png" alt="" />
-                    <img style={{ height: "60px" }} src="https://i.ibb.co/h7gkbkc/image-removebg-preview-13.png" alt="" />
+
                 </div>
             </div>
             <div className='about-container '>

@@ -25,7 +25,7 @@ const Header = () => {
                                 <img className='me-2' style={{ height: "25px" }} src={projectsimg} alt="" />
                                 Articles
                             </Nav.Link>
-                            <Nav.Link className='text-white me-5' href="#link">
+                            <Nav.Link className='text-white me-5' as={Link} to="/project">
                                 <img className='me-2' style={{ height: "25px" }} src={aboutimg} alt="" />
                                 Projects
                             </Nav.Link>

@@ -12,9 +12,12 @@
 .icons span {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.632);
+    background: var(--hover-color);
     margin-right: 15px;
     border-radius: 100%;
     transition: all 0.8s;
+    border: 1px solid #111;
+    border: 0.1px solid var(--heading-color);
 }
 
 .banner-para {
