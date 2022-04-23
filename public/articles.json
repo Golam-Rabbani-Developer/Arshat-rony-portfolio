@@ -3,48 +3,84 @@
         "_id": "6262ab4c4cdeed75a3cbda56",
         "picture": "https://i.ibb.co/jZ4kGRw/Delivery-Hero-Comet-1.png",
         "name": "Red Onion",
-        "text": "Red Onion is a food delivery website with proper authentication",
+        "text": "Red Onion is a featured rich food delivery website for todays IT dependent world.",
         "liveLink": "https://react-khabar-dabar.firebaseapp.com/",
-        "codeLink": "https://github.com/Arshat-Rony/khabar-dabar"
+        "codeLink": "https://github.com/Arshat-Rony/khabar-dabar",
+        "tools": [
+            "ReactJS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
     },
     {
         "_id": "6262ab4c5fd2257bf1791028",
         "picture": "https://i.ibb.co/DQ4wRJy/screenbud-be003b36-09fe-48f0-928f-fe011121102b-1.png",
         "name": "New View",
-        "text": "A residential hotel website. Project done with Reactjs,Bootstrap,Firebase",
+        "text": "A residential hotel website for desktop and a much optimised for mobile devices",
         "liveLink": "https://hotel-new-view.firebaseapp.com/home",
-        "codeLink": "https://github.com/Arshat-Rony/Hotel-New-View"
+        "codeLink": "https://github.com/Arshat-Rony/Hotel-New-View",
+        "tools": [
+            "ReactJS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
+    },
+    {
+        "_id": "6262ab4c141adc0d58e51edc",
+        "picture": "https://i.ibb.co/FhLJKyZ/Online-Ecommerce-Business-Logo-1.png",
+        "name": "Eshop",
+        "text": "Eshop is an high performance responsive ecommerece website.",
+        "liveLink": "https://arshat-rony.github.io/Eshop-js/",
+        "codeLink": "https://github.com/Arshat-Rony/Eshop-js",
+        "tools": [
+            "JS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
     },
     {
         "_id": "6262ab4ce0551e5b676afb78",
         "picture": "https://i.ibb.co/wdGGjDk/marketing-png-development-marketing-8-1.png",
         "name": "Webian",
-        "text": "Webian is digital agency website adorned with some course offferd by tha agency with proper authentication system",
+        "text": "Webian is a digital agency website adorned with beautiful design for a technology consulting company.",
         "liveLink": "https://react-webian.firebaseapp.com/",
-        "codeLink": "https://github.com/Arshat-Rony/react-webian"
+        "codeLink": "https://github.com/Arshat-Rony/react-webian",
+        "tools": [
+            "ReactJS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
     },
     {
         "_id": "6262ab4cbb391d8d0c60a798",
         "picture": "https://i.ibb.co/m0P6pNQ/new-food-logo.png",
         "name": "Foods Valley",
-        "text": "Eye Catchy restaurent boiler plate with a beautiful menu page also. Project done with JS,Bootstrap5,HTML5",
+        "text": "Eye Catchy restaurent boiler plate with a beautiful dynamic foods menu page",
         "liveLink": "https://arshat-rony.github.io/foods-valley/",
-        "codeLink": "https://github.com/Arshat-Rony/foods-valley"
+        "codeLink": "https://github.com/Arshat-Rony/foods-valley",
+        "tools": [
+            "JS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
     },
     {
         "_id": "6262ab4c02a3a2dab674e548",
         "picture": "https://i.ibb.co/qdHtbkf/movie-logo.png",
         "name": "Moviabari",
-        "text": "Movibari is a Simple Movie website named Movibari with login system.Project done with JS,Bootstrap,HTML5",
+        "text": "Movibari is a festive panoramic Movie website named Movibari for a moviehall.",
         "liveLink": "https://arshat-rony.github.io/Movie-Website/",
-        "codeLink": "https://github.com/Arshat-Rony/Movie-Website"
-    },
-    {
-        "_id": "6262ab4c141adc0d58e51edc",
-        "picture": "https://i.ibb.co/B6v8h9r/cloud-logo-1.png",
-        "name": "Dewa",
-        "text": "Dewa is digital agency website.",
-        "liveLink": "https://arshat-rony.github.io/Branding-website/",
-        "codeLink": "https://github.com/Arshat-Rony/Branding-website"
+        "codeLink": "https://github.com/Arshat-Rony/Movie-Website",
+        "tools": [
+            "JS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ]
     }
 ]

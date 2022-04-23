@@ -14,6 +14,10 @@
     vertical-align: middle;
 }
 
+.made {
+    display: inline-block;
+}
+
 .artilcle-btn:hover {
     border: 1px solid var(--primary-color);
 }
@@ -26,4 +30,13 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
+    position: relative;
+    min-height: 440px;
+}
+
+.tools {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+    right: 10px;
 }

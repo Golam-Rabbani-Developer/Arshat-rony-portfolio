@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Article.css'
 const Article = ({ article }) => {
-    const { name, picture, text, liveLink, codeLink } = article;
+    const { name, picture, text, liveLink, codeLink, tools } = article;
     return (
         <div className='article text-center'>
             <h5 className='mt-3 mb-4 skills-heading'>{name}</h5>
@@ -13,8 +13,18 @@ const Article = ({ article }) => {
                 </a>
                 <a href={codeLink}>
                     <button className='artilcle-btn'>source code</button> </a>
+
+
             </div>
-            <p style={{ fontSize: "1.2rem" }}>{text}</p>
+            <p className='my-2'>{text}</p>
+            <div style={{ color: "var(--dark-color)" }} className='tools d-flex justify-content-center align-items-center gap-4'>
+
+                <span >{tools[0]}</span>
+                <span>{tools[1]}</span>
+                <span>{tools[2]}</span>
+                <span >{tools[3]}</span>
+            </div>
+
         </div>
     );
 };
