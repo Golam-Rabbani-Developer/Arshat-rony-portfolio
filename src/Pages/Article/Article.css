@@ -14,9 +14,6 @@
     vertical-align: middle;
 }
 
-.made {
-    display: inline-block;
-}
 
 .artilcle-btn:hover {
     border: 1px solid var(--primary-color);
