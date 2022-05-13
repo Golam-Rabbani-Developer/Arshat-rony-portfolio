@@ -28,12 +28,18 @@
     flex-direction: column;
     padding: 1.5rem;
     position: relative;
-    min-height: 440px;
+    /* min-height: 440px; */
 }
 
 .tools {
     width: 100%;
-    position: absolute;
-    bottom: 14px;
+    position: relative;
+    /* bottom: 14px; */
     right: 10px;
+}
+
+@media (min-width:"992px") {
+    .article {
+        min-height: 100px;
+    }
 }

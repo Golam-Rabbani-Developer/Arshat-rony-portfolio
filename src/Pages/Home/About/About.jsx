@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css'
 const About = () => {
     return (
-        <div className='home-about p-4'>
+        <div data-aos="fade-up-right" className='home-about p-4'>
             <h1 className='skills-heading'>
                 Coding and Thinking
             </h1>

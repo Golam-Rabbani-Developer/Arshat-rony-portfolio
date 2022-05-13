@@ -5,7 +5,6 @@ import Article from '../Article/Article';
 import "./Articles.css"
 const Articles = () => {
     const [data, setData] = useData('articles.json')
-    console.log(data)
     let slicedData = data.slice(0, 3)
     const location = useLocation()
 

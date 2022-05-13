@@ -6,10 +6,10 @@ import './Skills.css'
 const Skills = () => {
     const [data, setData] = useData('skilldata.json')
     return (
-        <div className='skills'>
+        <div className='skills' >
             <h2 className='skills-heading'>Highlights of My Skills</h2>
             <hr />
-            <div>
+            <div >
                 {
                     data.map(skill => <Skill
                         key={skill.id}

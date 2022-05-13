@@ -20,7 +20,7 @@ const About = () => {
             <div className="about-container">
                 <Skills></Skills>
             </div>
-            <div className='about-container '>
+            <div data-aos="fade-up-right" className='about-container '>
                 <h3 className='about-heading'>My Interests</h3>
                 <hr />
                 <p><VscActivateBreakpoints className='me-3 text-white' />
@@ -30,7 +30,7 @@ const About = () => {
                 <p><VscActivateBreakpoints className='me-3 text-white' />
                     Making Some Beautiful application.</p>
             </div>
-            <div className='about-container '>
+            <div data-aos="fade-up-right" className='about-container '>
                 <h3 className='about-heading'>Favourite Tools</h3>
                 <hr />
                 <div className=''>
@@ -43,7 +43,7 @@ const About = () => {
 
                 </div>
             </div>
-            <div className='about-container '>
+            <div data-aos="fade-up-right" className='about-container '>
                 <h3 className='about-heading'>Current Location</h3>
                 <hr />
                 <p><FcAddressBook className='fs-3' /> Dhaka, Bnagladesh</p>
