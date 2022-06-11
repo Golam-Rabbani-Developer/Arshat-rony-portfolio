@@ -2,8 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#global-btn {
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    transition: all 0.9s;
+}
 
+
+
+
+#global-btn {
     transition: all 0.8s;
     background-color: var(--background-color);
     color: white;
@@ -17,6 +24,11 @@
     font-weight: bold;
     border-left: 4px solid var(--font-color);
     border-top: 4px solid var(--font-color);
+}
+
+#global-btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .navbar-light .navbar-toggler {

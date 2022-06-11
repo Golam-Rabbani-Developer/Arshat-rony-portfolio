@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skill.css'
 const Skill = ({ skill }) => {
-    const { name, picture, number } = skill;
+    const { name, picture } = skill;
     return (
         <div data-aos="fade-up-right" className='skill d-flex justify-content-between align-items-center mt-3'>
             <div className='d-flex align-items-center  justify-content-center gap-3'>

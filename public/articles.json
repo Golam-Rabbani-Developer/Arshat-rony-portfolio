@@ -1,6 +1,53 @@
 [
     {
-        "_id": "6262ab4c4cdeed75a3cbda56",
+        "picture": "https://i.ibb.co/q5P3Vbz/innovus-new.png",
+        "name": "Innovus",
+        "text": "Inonvus a inventory management website.Project wraped with admin functionality and payment system also integrated where user can pay their bill. Admin has some extra power to make anyone admin and can manage all orders.",
+        "liveLink": "https://innovus-9d152.web.app/",
+        "codeLink": "https://github.com/Arshat-Rony/innovus-warehouse-website",
+        "tools": [
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "ExpressJS"
+        ],
+        "detail_page": "https://i.ibb.co/FXqXcys/screencapture-innovus-9d152-firebaseapp-2022-06-09-23-01-04-2.png",
+        "login_page": "https://i.ibb.co/QjybymV/innovus-login-2.png",
+        "others": "https://i.ibb.co/RbRWv4k/skybee-services-2.png"
+    },
+    {
+        "picture": "https://i.ibb.co/Bw17Gz4/bikes-2.png",
+        "name": "Bikers",
+        "text": "Project based on inventory management.Inventory holder can manage the users order and can make anyone admin.He can also add product and remove product from his store",
+        "liveLink": "https://bikers-b2e71.firebaseapp.com/home",
+        "codeLink": "https://github.com/Arshat-Rony/bike-store-website",
+        "tools": [
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "ExpressJS"
+        ],
+        "detail_page": "https://i.ibb.co/9ZqkKgS/screencapture-bikers-b2e71-firebaseapp-home-2022-06-09-23-09-05-1.png",
+        "login_page": "https://i.ibb.co/VNJRK6L/bikers-login-1.png",
+        "others": "https://i.ibb.co/S0gKg7y/bikers-product-details-1.png"
+    },
+    {
+        "picture": "https://i.ibb.co/rQwzJ6m/nft-new.png",
+        "name": "SkyBee",
+        "text": "Project based on NFT products. Where any user place a bid after logging in. There is also a option of live bidding where user can live bid a product",
+        "liveLink": "https://skybee-ba722.firebaseapp.com/home",
+        "codeLink": "https://github.com/Arshat-Rony/skybee",
+        "tools": [
+            "ReactJS",
+            "Bootstrap5",
+            "Html5",
+            "Css3"
+        ],
+        "detail_page": "https://i.ibb.co/k8dNCmS/skybee-full-1.png",
+        "login_page": "https://i.ibb.co/JccLg1p/skybee-login-1.png",
+        "others": "https://i.ibb.co/tJX11zZ/skybee-products-1.png"
+    },
+    {
         "picture": "https://i.ibb.co/jZ4kGRw/Delivery-Hero-Comet-1.png",
         "name": "Red Onion",
         "text": "Red Onion is a featured rich food delivery website for todays IT dependent world.",
@@ -14,7 +61,6 @@
         ]
     },
     {
-        "_id": "6262ab4c5fd2257bf1791028",
         "picture": "https://i.ibb.co/DQ4wRJy/screenbud-be003b36-09fe-48f0-928f-fe011121102b-1.png",
         "name": "New View",
         "text": "A residential hotel website for desktop and a much optimised for mobile devices",
@@ -28,7 +74,6 @@
         ]
     },
     {
-        "_id": "6262ab4c141adc0d58e51edc",
         "picture": "https://i.ibb.co/FhLJKyZ/Online-Ecommerce-Business-Logo-1.png",
         "name": "Eshop",
         "text": "Eshop is an high performance responsive ecommerece website.",
@@ -42,7 +87,6 @@
         ]
     },
     {
-        "_id": "6262ab4ce0551e5b676afb78",
         "picture": "https://i.ibb.co/wdGGjDk/marketing-png-development-marketing-8-1.png",
         "name": "Webian",
         "text": "Webian is a digital agency website adorned with beautiful design for a technology consulting company.",
@@ -56,7 +100,6 @@
         ]
     },
     {
-        "_id": "6262ab4cbb391d8d0c60a798",
         "picture": "https://i.ibb.co/m0P6pNQ/new-food-logo.png",
         "name": "Foods Valley",
         "text": "Eye Catchy restaurent boiler plate with a beautiful dynamic foods menu page",
@@ -70,7 +113,6 @@
         ]
     },
     {
-        "_id": "6262ab4c02a3a2dab674e548",
         "picture": "https://i.ibb.co/qdHtbkf/movie-logo.png",
         "name": "Moviabari",
         "text": "Movibari is a festive panoramic Movie website named Movibari for a moviehall.",

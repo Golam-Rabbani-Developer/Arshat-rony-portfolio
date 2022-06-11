@@ -8,7 +8,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282C34;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 :root {
   --primary-color: #FD9B3B;

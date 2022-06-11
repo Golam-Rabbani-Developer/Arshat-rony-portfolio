@@ -1,10 +1,7 @@
 .artilcle-btn {
-    background-color: #20232A;
-    /* background-color: var(--btn-color); */
-
+    background-color: #282c34;
     border: 1px solid var(--light-border-color);
     border-radius: 8px;
-    /* color: var(--bright-font-color); */
     color: var(--btn-font);
     display: inline-block;
     font-size: .9rem;
@@ -14,6 +11,9 @@
     vertical-align: middle;
 }
 
+.article-container>* {
+    flex-basis: 50%;
+}
 
 .artilcle-btn:hover {
     border: 1px solid var(--primary-color);
@@ -28,7 +28,19 @@
     flex-direction: column;
     padding: 1.5rem;
     position: relative;
-    /* min-height: 440px; */
+
+}
+
+.article_project {
+    background: var(--hover-color);
+    border: 1px solid #111;
+    border-radius: 8px;
+    color: var(--btn-font);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    position: relative;
+    min-height: 470px;
 }
 
 .tools {

@@ -9,10 +9,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.icons span {
+.icons a {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.632);
     background: var(--hover-color);
+    color: white;
     margin-right: 15px;
     border-radius: 100%;
     transition: all 0.8s;
@@ -26,10 +27,10 @@
     font-family: 'Inter', sans-serif;
 }
 
-.icons span:hover {
+.icons a:hover {
     background-color: var(--primary-color);
 }
 
-.icons>span>svg {
+.icons>a>svg {
     margin-bottom: 5px;
 }

@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className='home-container mx-auto p-4'>
             <h1 id='about-title' className='about-heading '>Learn About Me</h1>
-            <h4 className='about-subheading'>Front-End-Developer, Open-Sourcer</h4>
+            <h4 className='about-subheading'>MERN-Stack-Developer, Open-Sourcer</h4>
             <div className="about-container">
                 <p>Hey, Arshat Rony here. Addressing to my spot on the web for projects I've created,tutorials I've written and else I want to show the world.My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
                 <br />

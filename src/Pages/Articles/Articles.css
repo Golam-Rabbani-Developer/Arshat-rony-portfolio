@@ -1,6 +1,6 @@
 .articles-container {
-
     margin: 90px 0;
+    position: relative;
 }
 
 .articles {
@@ -9,14 +9,40 @@
     grid-gap: 20px;
 }
 
+.articles_projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+#highlighted_box {
+    position: fixed;
+    top: 30px;
+    right: 5px;
+}
+
+.viewed {
+    transform: scale(1.1);
+}
+
 @media(min-width:768px) {
     .articles {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .articles_projects {
+        grid-template-columns: repeat(2, 1fr);
+
     }
 }
 
 @media(min-width:992px) {
     .articles {
         grid-template-columns: 1fr;
+    }
+
+    .articles_projects {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80%;
     }
 }
