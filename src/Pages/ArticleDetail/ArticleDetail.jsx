@@ -7,15 +7,15 @@ import Loading from '../Shared/Loading';
 
 const ArticleDetail = () => {
     const { id } = useParams()
-    const { isLoading, data } = useQuery('servicedata', () =>
-        fetch(`http://localhost:5000/project/${id}`).then(res =>
+    const { isLoading, data } = useQuery('singleproject', () =>
+        fetch(`https://ar-portfolio-server.herokuapp.com/project/${id}`).then(res =>
             res.json()
         )
     )
     if (isLoading) {
         return <Loading type="spokes" color="red"></Loading>
     }
-    const { name, picture, text, liveLink, codeLink, detail_page, login_page, others } = data;
+    const { name, text, liveLink, codeLink, detail_page, login_page, others } = data;
     return (
         <div>
             <div style={{ background: "none" }} className='article_project w-full border-bottom-0 '>

@@ -21,7 +21,7 @@ const useData = (text) => {
         return <Loading type="spokes" color="#1C2648"></Loading>
     }
     console.log(data)
-    return [data]
+    return { data }
 };
 
 export default useData;

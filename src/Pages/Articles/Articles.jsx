@@ -1,22 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import { Link, useLocation, useParams } from 'react-router-dom';
+import useData from '../../useData/useData';
 import Article from '../Article/Article';
 import Loading from '../Shared/Loading';
 import "./Articles.css"
 const Articles = () => {
-    const { id } = useParams()
     const location = useLocation()
-    const { isLoading, data: articles } = useQuery('servicedata', () =>
-        fetch(`https://ar-portfolio-server.herokuapp.com/projects`).then(res =>
-            res.json()
-        )
-    )
-    if (isLoading) {
-        return <Loading type="spinningBubbles" color="#d0d5df"></Loading>
-    }
-
-    let slicedData = articles?.slice(0, 3)
+    const [slicedData, setSlicedData] = useState([])
+    const { data } = useData(`https://ar-portfolio-server.herokuapp.com/projects`)
+    useEffect(() => {
+        setSlicedData(data?.slice(0, 3))
+    }, [data])
 
     return (
         <div className={`articles-container position-relative p-4 ${location.pathname === '/project' && "mx-auto"}`}>
@@ -46,7 +41,7 @@ const Articles = () => {
             </div>
             <div className='articles_projects mt-5 mx-auto'>
                 {
-                    location.pathname === '/project' && articles?.map(article => <Article
+                    location.pathname === '/project' && data?.map(article => <Article
                         key={article._id}
                         article={article}
                     ></Article>)
