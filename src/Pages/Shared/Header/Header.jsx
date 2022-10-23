@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import resume from "../../../assests/Arshat Rony (2).pdf"
+import resume from "../../../assests/Golam Rabbani (2).pdf"
 import articleimg from '../../../images/icons/download.png'
 import aboutimg from '../../../images/icons/download (2).png'
 import './Header.css'
@@ -35,7 +35,7 @@ const Header = () => {
                             </Nav.Link>
 
                         </Nav>
-                        <Link to={resume} download="Arshat Rony (1).pdf" target="_blank">  <button id='global-btn' className="btn">Resume</button></Link>
+                        <Link to={resume} download="Golam Rabbani (1).pdf" target="_blank">  <button id='global-btn' className="btn">Resume</button></Link>
                     </Navbar.Collapse>
                 </Navbar>
             </div>

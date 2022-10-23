@@ -28,7 +28,7 @@ const Contact = () => {
 
                     <img className='my-3 mx-auto' src="https://i.ibb.co/XyZYCty/laptop-new.png" alt="laptop-pic" />
                     <div className='text-center'>
-                        <h3 className='skills-heading '>Arshat Rony</h3>
+                        <h3 className='skills-heading '>Golam Rabbani</h3>
                         <p className=''><span className='text-bold text-secondary fs-3 '>Jr. MERN Stack Developer.</span></p>
                         <p className='text-white px-5'> Have an exciting project that could use my help? Drop me a line and let's chat!</p>
                     </div>
