@@ -34,7 +34,7 @@ const Contact = () => {
                     </div>
                     <div className="contact_email my-3">
                         <p className=''><MdAttachEmail className='me-3 fs-4 email-phone' />
-                            frrony@gmail.com</p>
+                            golam.rabbani2848@gmail.com</p>
                         <p><BsFillTelephoneOutboundFill className='me-3 fs-4 email-phone' />
                             +01641-382848</p>
                     </div>

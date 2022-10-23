@@ -12,7 +12,7 @@ const About = () => {
             <h1 id='about-title' className='about-heading '>Learn About Me</h1>
             <h4 className='about-subheading'>MERN-Stack-Developer, Open-Sourcer</h4>
             <div className="about-container">
-                <p>Hey, Arshat Rony here. Addressing to my spot on the web for projects I've created,tutorials I've written and else I want to show the world.My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
+                <p>Hey, Golam Rabbani here. Addressing to my spot on the web for projects I've created,tutorials I've written and else I want to show the world.My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world and document notes for myself, and hopefully connect with a few people.</p>
                 <br />
                 <p>Check out my <Link className='text-decoration-none text-white' to='/project'>
                     <span className='project-bar'>Projects</span></Link> and <span className='project-bar'>Articles</span></p>
@@ -52,7 +52,7 @@ const About = () => {
                 <h3 className='about-heading'>Connect Me</h3>
                 <hr />
                 <p className=''><MdAttachEmail className='me-3 fs-4 email-phone' />
-                    frrony@gmail.com</p>
+                    golam.rabbani2848@gmail.com</p>
                 <p><BsFillTelephoneOutboundFill className='me-3 fs-4 email-phone' />
                     +01641-382848</p>
             </div>

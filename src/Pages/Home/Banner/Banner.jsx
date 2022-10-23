@@ -11,7 +11,7 @@ const Banner = () => {
             <div className=" d-flex flex-column justify-content-between align-items-center flex-md-row mt-5">
 
                 <div className="banner-text order-2 order-md-1 mt-5 mt-md-0">
-                    <h1 className='banner-heading fw-bold'> Arshat Rony </h1>
+                    <h1 className='banner-heading fw-bold'> Golam Rabbani </h1>
                     <p className='banner-para mt-3 pe-3 pe-me-5 pb-3'>MERN Stack Developer. I love building Open-sources projects  <br /> and writing about what I learn.
                         My website is my digital garden where I used to write in free time.</p>
                     <div className='icons mt-4 mb-5'>

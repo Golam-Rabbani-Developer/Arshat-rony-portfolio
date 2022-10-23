@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import resume from "../../../assests/Arshat Rony  (1).pdf"
+import resume from "../../../assests/Arshat Rony (2).pdf"
 import articleimg from '../../../images/icons/download.png'
 import aboutimg from '../../../images/icons/download (2).png'
 import './Header.css'
@@ -11,7 +11,7 @@ const Header = () => {
             <div className='header home-container mx-auto px-3'>
                 <Navbar bg="dark" expand="lg">
                     <Navbar.Brand>
-                        <Nav.Link as={Link} to='/home' className='text-decoration-none' ><h5 className='text-white logo fw-bold'>Arshat Rony</h5></Nav.Link>
+                        <Nav.Link as={Link} to='/home' className='text-decoration-none' ><h5 className='text-white logo fw-bold'>G.Rabbani</h5></Nav.Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

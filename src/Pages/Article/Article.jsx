@@ -6,7 +6,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs"
 import './Article.css'
 import { Link, useLocation, useParams } from 'react-router-dom';
 const Article = ({ article }) => {
-    const { id } = useParams()
+
     const location = useLocation()
     const { ref, inView } = useInView()
     const animation = useAnimation({
@@ -47,8 +47,8 @@ const Article = ({ article }) => {
                                     </a>
                                     <a href={`${codeLink}`}>
                                         <button className='artilcle-btn'><FiGithub className='me-2' /> source code  </button> </a>
-                                    <Link to={`/project/${_id}`}>
-                                        <button className='artilcle-btn'>Details</button> </Link>
+                                    {/* <Link to={`/project/${_id}`}>
+                                        <button className='artilcle-btn'>Details</button> </Link> */}
                                 </div>
                             </div>
                             <div className=''>
@@ -82,8 +82,8 @@ const Article = ({ article }) => {
                                 </a>
                                 <a href={`${codeLink}`}>
                                     <button className='artilcle-btn'><FiGithub className='me-2' />Source</button> </a>
-                                <Link to={`/project/${_id}`}>
-                                    <button className='artilcle-btn'>Details</button> </Link>
+                                {/* <Link to={`/project/${_id}`}>
+                                    <button className='artilcle-btn'>Details</button> </Link> */}
                             </div>
                         </div>
                         <div className='d-flex justify-content-center align-items-center flex-column'>

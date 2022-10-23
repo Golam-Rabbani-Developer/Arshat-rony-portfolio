@@ -5,6 +5,26 @@
         "number": "92"
     },
     {
+        "picture": "https://i.ibb.co/x8ZFysr/react-removebg-preview.png",
+        "name": "ReactJS",
+        "number": "90"
+    },
+    {
+        "picture": "https://i.ibb.co/GVrxwYT/nodejs-1-1.png",
+        "name": "NodeJS",
+        "number": "92"
+    },
+    {
+        "picture": "https://i.ibb.co/ChNfMCF/mongo-resized.png",
+        "name": "MongoDb",
+        "number": "92"
+    },
+    {
+        "picture": "https://i.ibb.co/b3dc8Py/express-resized.png",
+        "name": "ExpressJS",
+        "number": "92"
+    },
+    {
         "picture": "https://i.ibb.co/PtjwT68/html-removebg-preview.png",
         "name": "HTML (5)",
         "number": "98"
@@ -32,11 +52,6 @@
     {
         "picture": "https://i.ibb.co/KsBn35m/image-removebg-preview-14.png",
         "name": "Figma Design",
-        "number": "90"
-    },
-    {
-        "picture": "https://i.ibb.co/x8ZFysr/react-removebg-preview.png",
-        "name": "ReactJS",
         "number": "90"
     },
     {
