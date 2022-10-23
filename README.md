@@ -1,6 +1,6 @@
-# Welcome to Arshat Rony portfolio
+# Welcome to Golam Rabbani portfolio
 
-[Arshat Rony Portfolio](https://arshat-rony-protfolio.web.app)
+[Golam Rabbani Portfolio](https://arshat-rony-protfolio.web.app)
 
 
 
@@ -11,6 +11,6 @@ This website is made with ReactJS. Here in the landing page you will get some de
 
 
 ## Author
-__Arshat Rony__
+__Golam Rabbani__
 
 
