@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import resume from "../../../assests/Golam Rabbani (2).pdf"
+import resume from "../../../assests/Arshat Rony (2).pdf"
 import articleimg from '../../../images/icons/download.png'
 import aboutimg from '../../../images/icons/download (2).png'
 import './Header.css'
